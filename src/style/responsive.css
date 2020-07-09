@@ -8,10 +8,11 @@
         gap: 1em;
         margin-top: 2em;
         margin-bottom: 2em;
+        
     }
     
         .items-grid li{
-            margin-bottom: 1em;
+            height: auto;
         }
     
     }
