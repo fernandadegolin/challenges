@@ -1,0 +1,13 @@
+
+@media only screen and (max-width: 375px){
+.items-grid{
+    display: block;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    }
+
+    .items-grid li{
+        margin-bottom: 1em;
+    }
+
+}
