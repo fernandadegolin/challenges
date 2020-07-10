@@ -1,12 +1,6 @@
+onchange="myFunction()"
 
-    let post = document.getElementById('selecionaPost');
-
-
-
-/* post.addEventListener('change', function() {
-    let nomePost = post.value;
-
-    nomePost.classList.add('escondido');
-
-})
- */
+function myFunction() {
+    let post = document.getElementById("selecionaPost").value;
+    document.getElementById("id").innerHTML = post;
+  }
