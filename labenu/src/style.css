@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    position: absolute;
+    width: 100%;
+    background: rgb(219, 65, 0);
+
+}
+
+    header nav ul{
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    header nav ul li{
+        display: flex;
+        margin: 1em;
+    }
+
+    header nav ul li a{
+        display: flex;
+        justify-content: flex-end;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: white;
+        margin-right: 1em;
+ }
+
+main{
+    display: flex;
+    width: 100%;
+}
+
+    main div{
+        background: rgb(91,90,154);	
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 80vh;
+    }
+
+    main div img{
+        width: 30%;
+        margin: auto;
+    }
+
+    main div h2{
+        display: flex;
+        align-items: center;
+        color: white;
+        margin-top: 4em;
+    }
+
+    main p{
+        display: flex;
+        font-style: italic;
+        margin-left: auto;
+        margin-right: 1em;
+        color: white;
+    }
+
+
+    footer{
+        background: rgb(216, 216, 216);
+        height: 20vh;   
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+        footer p{
+            margin: 0 0 1em 1.8em;
+            color: rgb(44, 42, 42);
+        }
+
+        footer form{
+            display: flex;
+            justify-content: center;
+        }
+    
+        form .input-padrao{
+            color: rgb(117, 117, 117);
+            padding: .8em;
+            width: 20%;
+        }
+            
+        form .enviar{
+            background: rgb(219, 65, 0);
+            text-transform: uppercase;
+            color: #ffffff;
+            padding: 10.5px;
+            vertical-align: top;	
+        }
+        
+
+
+
+/* RESPONSIVO */
+
+@media only screen and (max-width: 375px){
+    header nav ul{
+        display: flex;
+        justify-content: center;
+    }
+
+    main div h2 {
+        margin-top: 5em;
+    }
+
+    main div img {
+        width: 60%;
+    }
+
+    form .input-padrao{
+        width: 65%;
+    }
+}
