@@ -1,0 +1,32 @@
+.navbar{
+    background: var(--yellow-theme); 
+    height: 60px;   
+}
+
+.navbar a{
+    font-size: 18px;
+    color: var(--menu-color);
+    font-weight: 400;
+    font-family: "Lato";
+    margin: 0 40px 0 40px;
+
+}
+
+.content{
+    background-color: black;
+}
+
+    .content-bg{
+        height: 100vh;
+        width: auto;
+        background: url(../assets/img_topo.jpg) no-repeat;
+        background-position: top right;
+        
+    }
+
+    .content-title{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: var(--primary-color);
+    }

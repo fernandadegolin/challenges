@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+:root{
+    --yellow-theme:#f6b900;
+    --menu-color: #493803;
+    --primary-color: #e5e5e5;
+    --second-color: #3a3e54;
+    --bg: #000000;
+}
+
+@font-face {
+    font-family: "Latu";
+    src: url("../fonts/Lato-Italic.ttf") format("truetype")
+}
+
+
