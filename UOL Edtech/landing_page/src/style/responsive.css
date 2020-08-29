@@ -1,0 +1,134 @@
+@media only screen and (max-width: 475px) {
+  .navbar {
+    height: auto;
+    width: auto;
+    text-align: center;
+  }
+
+  .navbar a {
+    margin-bottom: 1.5em;
+    margin-top: 0.5em;
+    color: #ffffff;
+    width: 100%;
+    margin: auto;
+  }
+
+  .content {
+    display: inline;
+  }
+  .content-bg-pic {
+    width: auto;
+    background-position: center;
+  }
+
+  .content-title {
+    margin: 0;
+    text-align: center;
+  }
+
+  .content-title h1 {
+    font-size: 3em;
+  }
+
+  .content-title h6 {
+    font-size: 1em;
+    margin: auto 2em;
+    padding: 0;
+  }
+
+  /* BOX - SEGUNDO CONTEUDO */
+  .content-box {
+    width: 100%;
+    left: 0;
+    top: 90vh;
+  }
+
+  .paragraph {
+    font-size: small;
+  }
+
+  /* TERCEIRO CONTEUDO */
+  .content-bg {
+    height: auto;
+    width: auto;
+    padding-top: 6em;
+  }
+
+  .content-bg .title {
+    font-size: 16px;
+    margin-top: 16em;
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .content-bg .text {
+    font-size: 14px;
+    display: inline;
+  }
+
+  .content-bg .text .text-box-d,
+  .content-bg .text .text-box-e {
+    width: auto;
+    margin: 0;
+  }
+
+  .content-bg .text .text-box-d p,
+  .content-bg .text .text-box-e p {
+    display: inline;
+    padding: 0;
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+
+  /* CARDS */
+  .content-bg-grey {
+    height: auto;
+  }
+
+  .cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+  }
+}
+
+@media (min-width: 476px) and (max-width: 720px) {
+  .navbar {
+    height: auto;
+    text-align: center;
+  }
+
+  .navbar a {
+    margin-bottom: 1.5em;
+    margin-top: 0.5em;
+    color: #ffffff;
+  }
+
+  /* CARDS */
+  .content-bg-grey {
+    height: auto;
+  }
+
+  .cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+  }
+}
+
+@media (min-width: 721px) and (max-width: 870px) {
+  .navbar {
+    height: auto;
+    text-align: center;
+  }
+
+  .navbar a {
+    margin-bottom: 1.5em;
+    margin-top: 0.5em;
+    color: #ffffff;
+  }
+}
