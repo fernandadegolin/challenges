@@ -10,7 +10,7 @@
 </head>
 
 <body>
-	<div class="container exercicio">
+	<div id="option" class="container exercicio">
 		<div class="row">
 			<div class="col-md-8 col-md-push-2">
 				<header class="enunciado">
@@ -19,46 +19,52 @@
 				    <p>Pense na sua última viagem. O que mais você se recorda?</p>
 				</header>				
 			</div>
-		</div>
+        </div>
+        
 		<div class="row">
 			<div class="col-md-8 col-md-push-2">
                 <div class="alternativas">
                     <div class="alternativa">
                         <span class="checkbox-wrap">
-                            <input type="checkbox" id="a1" name="q1">
+                            <input type="checkbox" id="a1" name="q1" onclick="botao()">
                         </span>
                         <div class="texto">
                             <label for="a1">A história do lugar.</label>
                         </div>
                     </div>
+
                     <div class="alternativa">
                         <span class="checkbox-wrap">
-                            <input type="checkbox" id="a2" name="q1">
+                            <input type="checkbox" id="a2" name="q2">
                         </span>
                         <div class="texto">
                             <label for="a2">As pessoas que conheci</label>
                         </div>
                     </div>
+
                     <div class="alternativa">
                         <span class="checkbox-wrap">
-                            <input type="checkbox" id="a3" name="q1">
+                            <input type="checkbox" id="a3" name="q3">
                         </span>
                         <div class="texto">
                             <label for="a3">As postagens que fiz nas redes sociais.</label>
                         </div>
                     </div>
+
                     <div class="alternativa">
                         <span class="checkbox-wrap">
-                            <input type="checkbox" id="a4" name="q1">
+                            <input type="checkbox" id="a4" name="q4">
                         </span>
                         <div class="texto">
                             <label for="a4">Ter voltado com uma bagagem maior.</label>
                         </div>
                     </div>
                 </div>
+
                 <div class="acoes">
-                    <input type="button" value="Confirmar" class="bt bt-confirmar" >
+                    <input id="botao" type="button" value="Confirmar" class="bt bt-confirmar" >
                 </div>
+
 				<div class="feedbacks">
                     <div class="feedback-positivo feedbacksNone" id="feedbackPositivo"><strong>Parabéns</strong>! Você selecionou a resposta correta.</div>
 					<div class="feedback-negativo feedbacksNone" id="feedbackNegativo"><strong>Atenção</strong>! Você não selecionou a resposta correta.</div>
@@ -66,7 +72,7 @@
 			</div>
 		</div>
 	</div> 
- 	<script src="js/jquery.min.js"></script>
- 	<script src="js/exercicio.js"></script>
+ 	<script src="./js/jquery.min.js"></script>
+ 	<script src="./js/exercicio.js"></script>
 </body>
 </html>
