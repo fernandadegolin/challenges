@@ -10,11 +10,26 @@ body{
     background-size: cover;
 }
 
+input, select{
+    outline: none;
+    border: none;
+    background: transparent;
+    width: 100%;
+}
+
+label{
+    width: 5em;
+    color: var(--txt-color);
+}
+
 :root {
     --btn: #9c83be;
     --title-color: #7e479b;
+    --txt-color: #3d3d3dce;
 }
 
+
+/* HEADER */
 .top{
     display: flex;
     flex-direction: column;
@@ -40,5 +55,97 @@ body{
         font-size: .9em;
     }
 
+/* FIM HEADER */
 
+
+
+/* MAIN */
+
+.register{
+    display: flex;
+    flex-direction: column;
+    margin: 2.2em;
+    padding: 1.1em;
+}
+
+    .register .crm, .uf{
+        border-bottom-style: groove;
+        margin: .7em 0;
+        font-size: .7em;
+        line-height: 2em;
+        display: flex;
+    }
+
+    .register .btn{
+        display: flex;
+        justify-content: center;
+    }
+
+        .btn button{
+            width: 100%;
+            background: var(--btn);
+            color: #fff;
+            border: none;
+            text-transform: uppercase;
+            font-size: .7em;
+            height: 3em;
+            border-radius: .4em;
+            box-shadow: 2px 2px 0 #b9b2b261;
+            box-shadow: 0pxp 0px 8px 2 px black;
+            margin: 1em 0;
+            cursor: pointer;
+        }
+
+    .register-txt{
+        text-transform: uppercase;
+        color: var(--title-color);
+        text-align: center;
+        font-size: .8em;
+        padding-left: 2em;
+        padding-right: 2em;
+        line-height: 1.5em;
+    }
+
+/* FIM MAIN */
+
+
+
+/* FOOTER */
+
+.icon{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: center; 
+    margin: 2em;
+    cursor: pointer;
+}
+
+    figure{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 1em;
+    }
+
+    figcaption{
+        text-transform: uppercase;
+        text-align: center;
+        font-size: .6em;
+        color: var(--txt-color);
+        padding-left: 2em;
+        padding-right: 2em;
+        margin-top: 1em;
+    }
+
+    .icon img{
+        width: 4em;
+    }
+
+    .icon-first, .icon-second{
+        display: flex;
+        align-items: baseline;
+    }
     
+/* FIM FOOTER */
+
