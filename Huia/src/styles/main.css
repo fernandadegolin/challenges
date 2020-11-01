@@ -5,7 +5,40 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+body{
+    background: url(../assets/bg.png) no-repeat;
+    background-size: cover;
+}
+
 :root {
     --btn: #9c83be;
-    --title-color: #614075;
+    --title-color: #7e479b;
 }
+
+.top{
+    display: flex;
+    flex-direction: column;
+    margin: 2.2em;
+    padding: 1.1em;
+}
+
+    .top-logo{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 1em;
+    }
+
+    .top-logo img {
+        width: 10em;
+    }
+
+    .top-txt{
+        text-transform: uppercase;
+        font-weight: bold;
+        color: var(--title-color);
+        text-align: center;
+        font-size: .9em;
+    }
+
+
+    
