@@ -1,5 +1,7 @@
 /* 
     1)
+    UF - obrigatorio
+    
     CRM - obrigatorio 
     CRM - só números
 
@@ -14,32 +16,26 @@
 */
 
 
-/* 
-
-const botao = document.getElementById('btn');
-    botao.addEventListener('click', clicar);
-    
-
-    function clicar (){
+const btn = document.getElementById('btn');
+    btn.addEventListener ('click', validação);
 
 
-        console.log('ta clicando')
+function validação (){
+    let crm = document.getElementById ('crm').value;
+    let uf = document.getElementById ('uf').value;
+
+    if (crm === '' || uf === '') {
+        alert ('Olá, para prosseguir com sua compra é necessário o preenchimento de todos os campos!');
+    } else {
+        window.location.href = 'https://huia.com.br/';
     }
- */
-
-
-let a = 2;
-
-function sim() {
-    if {
-        a === 8;
-
-    console.log('sim')
-    } else {    
-    console.log('falso')
 }
 
+    
 
-let a = 2
 
-let validar = a === 8? 'true' : 'false';
+
+
+
+
+
