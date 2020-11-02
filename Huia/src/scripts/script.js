@@ -6,7 +6,7 @@
     CRM - só números
 
     2)
-    Alerta de campos obrigatorios
+    Alerta de campos obrigatórios
 
     3)
     Validação de todos os campos 

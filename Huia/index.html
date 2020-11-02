@@ -7,6 +7,7 @@
     <title>Max Doctor</title>
 
     <link rel="stylesheet" href="./src/styles/main.css">
+    <link rel="stylesheet" href="./src/styles/responsive.css">
 </head>
 
 <body>
@@ -32,12 +33,12 @@
 
             <div class="crm">
                 <label for="">CRM</label>
-                <input type="text" id="crm" placeholder="0000000" required>
+                <input type="number" id="crm" placeholder="0000000" value='' required>
             </div>
 
             <div class="uf">
                 <label for="">UF</label>
-                <select name="estados-brasil" required>
+                <select name="estados-brasil" id="uf" required>
                     <option value="">Selecione</option>
                     <option value="AC">Acre</option>
                     <option value="AL">Alagoas</option>
