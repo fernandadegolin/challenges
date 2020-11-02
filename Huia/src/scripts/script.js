@@ -2,7 +2,7 @@
     1)
     UF - obrigatorio
     
-    CRM - obrigatorio 
+    CRM - obrigatório 
     CRM - só números
 
     2)
@@ -19,7 +19,6 @@
 const btn = document.getElementById('btn');
     btn.addEventListener ('click', validação);
 
-
 function validação (){
     let crm = document.getElementById ('crm').value;
     let uf = document.getElementById ('uf').value;
@@ -31,7 +30,15 @@ function validação (){
     }
 }
 
-    
+
+
+// clique nos icones
+let alerta = document.getElementById('icon');
+    alerta.addEventListener ('click', function mensagem (){
+        alert ('Olá, para prosseguir com sua compra é necessário o preenchimento de todos os campos acima!');
+    });
+
+   
 
 
 
